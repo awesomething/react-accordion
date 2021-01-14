@@ -22,7 +22,7 @@ export default class Accordion extends React.Component {
               
               {section.title}
               <p>
-              {this.state.index==index?section.content:null}
+              {this.state.index===index?section.content:null}
               </p>
               <button onClick={e=>this.onClick(index)}>Click here</button>
           </li>)}
